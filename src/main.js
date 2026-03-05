@@ -2,7 +2,7 @@ import './style.css'
 import * as THREE from 'three'
 import { addInstancedBalls } from './addInstancedMeshes'
 import { addLight } from './addLights'
-import { addPostProcessing } from './PostProcessing'
+import { addPostProcessing } from './postProcessing'
 
 // Scene Setup
 const scene = new THREE.Scene()
